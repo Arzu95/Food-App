@@ -8,39 +8,39 @@
 import SwiftUI
 
 struct Menu: View {
-    
-    @ObservedObject var homeData: HomeViewModel
-    
+  
+  @ObservedObject var homeData: HomeViewModel
+  
     var body: some View {
-        VStack{
-            Button(action: {}, label: {
-                HStack(spacing: 15) {
-                    Image(systemName: "cart")
-                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(.pink)
-                    
-                    Text("Cart")
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(.black)
-                    
-                    Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
-                }
-                padding()
-            })
+      VStack{
+        Button(action: {}, label: {
+          HStack(spacing: 15) {
+            Image(systemName: "cart")
+              .font(.title)
+              .foregroundColor(.pink)
             
-            Spacer()
+            Text("Cart")
+              .fontWeight(.bold)
+              .foregroundColor(.black)
             
-            HStack{
-                Spacer()
-                
-                Text("Version 0.1")
-                    .fontWeight(.bold)
-                    .foregroundColor(.pink)
-            }
-            .padding(10)
+            Spacer(minLength: 0)
+          }
+          .padding()
+        })
+        Spacer()
+        
+        HStack{
+          Spacer()
+          
+          Text("Version 1.0.0")
+            .fontWeight(.bold)
+            .foregroundColor(.pink)
+            
         }
-        .padding([.top,.trailing])
-        .frame(width: UIScreen.main.bounds.width / 1.6)
-        .background(Color.white.ignoresSafeArea())
+        .padding()
+      }
+      .padding([.top,.trailing])
+      .frame(width: UIScreen.main.bounds.width / 1.6)
+      .background(Color.white.ignoresSafeArea())
     }
 }
