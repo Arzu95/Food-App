@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		183B57E025EDEDE800A75B83 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 183B57DF25EDEDE800A75B83 /* GoogleService-Info.plist */; };
+		185E752D25F08803001E735F /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E752C25F08803001E735F /* Cart.swift */; };
+		185E753025F0991A001E735F /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185E752F25F0991A001E735F /* CartView.swift */; };
 		18D4B88C25EC93C8001611E9 /* Food_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4B88B25EC93C8001611E9 /* Food_AppApp.swift */; };
 		18D4B88E25EC93C8001611E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4B88D25EC93C8001611E9 /* ContentView.swift */; };
 		18D4B89025EC93CB001611E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D4B88F25EC93CB001611E9 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		041D238004DE1FD956A46028 /* Pods_Food_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		183B57DF25EDEDE800A75B83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		185E752C25F08803001E735F /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		185E752F25F0991A001E735F /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		18D4B88825EC93C8001611E9 /* Food App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D4B88B25EC93C8001611E9 /* Food_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_AppApp.swift; sourceTree = "<group>"; };
 		18D4B88D25EC93C8001611E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				18DADD8C25EF3D26005BD157 /* Item.swift */,
+				185E752C25F08803001E735F /* Cart.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 				18D4B8A225EC9EF4001611E9 /* Menu.swift */,
 				18D4B8A525ECA2A3001611E9 /* Home.swift */,
 				18DADD8F25EF460D005BD157 /* ItemView.swift */,
+				185E752F25F0991A001E735F /* CartView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185E753025F0991A001E735F /* CartView.swift in Sources */,
 				18D4B88E25EC93C8001611E9 /* ContentView.swift in Sources */,
 				18D4B89F25EC95CD001611E9 /* HomeViewModel.swift in Sources */,
 				18D4B8A625ECA2A3001611E9 /* Home.swift in Sources */,
@@ -264,6 +271,7 @@
 				18DADD9025EF460D005BD157 /* ItemView.swift in Sources */,
 				18DADD8D25EF3D26005BD157 /* Item.swift in Sources */,
 				18D4B88C25EC93C8001611E9 /* Food_AppApp.swift in Sources */,
+				185E752D25F08803001E735F /* Cart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
